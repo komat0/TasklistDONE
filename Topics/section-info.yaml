@@ -1,0 +1,23 @@
+content:
+  - Declaring classes
+  - Constructors
+  - Lambda expressions
+  - Map
+  - Member functions
+  - String arrays
+  - For loop and arrays
+  - Property accessors
+  - The try-catch-finally statement
+  - Set
+  - Secondary constructor
+  - Call stack
+  - Scopes
+  - Getting substrings
+  - Processing strings
+  - Introduction to MutableList
+  - For loop and ranges
+  - Inheritance
+  - Overriding functions
+  - toString()
+  - Data class
+  - Kotlinx datetime library

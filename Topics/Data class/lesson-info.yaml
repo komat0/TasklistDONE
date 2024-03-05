@@ -1,0 +1,10 @@
+content:
+  - Theory
+  - Generated functions
+  - Allowance for constructors
+  - Client age
+  - copy() usage
+  - Illegal to override
+  - Room mystery
+  - Not overridable
+  - toString() modification

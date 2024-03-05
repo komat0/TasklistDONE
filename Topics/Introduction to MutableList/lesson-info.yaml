@@ -1,0 +1,12 @@
+content:
+  - Theory
+  - Summing lengths of names in a mutable list
+  - Create and reverse a list from 1 to an input integer
+  - Operations on a mutable list of words
+  - The first element of a list
+  - Initializing a mutable list of characters
+  - Initializing a mutable list of integers
+  - The last element of a list
+  - Equal lists
+  - Right ways to create mutable lists
+  - Getting an element

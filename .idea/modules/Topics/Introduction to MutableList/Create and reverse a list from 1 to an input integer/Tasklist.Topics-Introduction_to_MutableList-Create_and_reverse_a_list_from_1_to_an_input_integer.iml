@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Introduction_to_MutableList-Create_and_reverse_a_list_from_1_to_an_input_integer" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Introduction to MutableList/Create and reverse a list from 1 to an input integer" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Tasklist" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Introduction to MutableList/Create and reverse a list from 1 to an input integer">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Introduction to MutableList/Create and reverse a list from 1 to an input integer/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Introduction to MutableList/Create and reverse a list from 1 to an input integer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Introduction to MutableList/Create and reverse a list from 1 to an input integer/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
