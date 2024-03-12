@@ -1,0 +1,35 @@
+type: matching
+captions:
+  - removeAt()
+  - remove()
+  - clear()
+  - add()
+  - set()
+  - addAll()
+options:
+  - Removes an element at a specified index
+  - Adds an extra element to a list
+  - ' Adds all of the elements of the specified collection to the end of the list'
+  - Removes all elements from the current collection
+  - Removes the specified element
+  - Replaces the element at the specified position with a specified element
+files:
+  - name: src/Main.kt
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      fun main(args: Array<String>) {
+        // put your code here
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20612#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5

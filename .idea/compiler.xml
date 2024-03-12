@@ -35,12 +35,22 @@
       <module name="Tasklist.Topics-Declaring_classes-Possible_properties_types.main" target="15" />
       <module name="Tasklist.Topics-Declaring_classes-Theory.main" target="15" />
       <module name="Tasklist.Topics-Declaring_classes-True_statements.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_arrays-Counting.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Down_to.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Find_the_max.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Is_it_here.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_arrays-Iteration.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Step.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_arrays-Sum_of_numbers.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Theory.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Triples.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-Count_occurrences.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-For_loops_task.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-List_indexes.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-Number_in_a_set.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-Print_all_elements.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-Theory.main" target="15" />
+      <module name="Tasklist.Topics-For_loop_and_lists-Transforming_a_list_of_integers_through_odd_or_even_checks.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_ranges-Check_the_order.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_ranges-Creating_a_beginners'_number_counting_application.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_ranges-Define_a_for-loop.main" target="15" />
@@ -68,6 +78,12 @@
       <module name="Tasklist.Topics-Introduction_to_MutableList-The_first_element_of_a_list.main" target="15" />
       <module name="Tasklist.Topics-Introduction_to_MutableList-The_last_element_of_a_list.main" target="15" />
       <module name="Tasklist.Topics-Introduction_to_MutableList-Theory.main" target="15" />
+      <module name="Tasklist.Topics-Jumps_and_returns-Correct_jumping.main" target="15" />
+      <module name="Tasklist.Topics-Jumps_and_returns-Getting_letters_from_the_Alphabet.main" target="15" />
+      <module name="Tasklist.Topics-Jumps_and_returns-Jumping_out.main" target="15" />
+      <module name="Tasklist.Topics-Jumps_and_returns-Placement_of_ships.main" target="15" />
+      <module name="Tasklist.Topics-Jumps_and_returns-Theory.main" target="15" />
+      <module name="Tasklist.Topics-Jumps_and_returns-Whole_truth_about_continue.main" target="15" />
       <module name="Tasklist.Topics-Kotlinx_datetime_library-Instant_class.main" target="15" />
       <module name="Tasklist.Topics-Kotlinx_datetime_library-Instant_class_initiation.main" target="15" />
       <module name="Tasklist.Topics-Kotlinx_datetime_library-Leap_Year.main" target="15" />
@@ -96,6 +112,16 @@
       <module name="Tasklist.Topics-Member_functions-Patient_needs_a_doctor.main" target="15" />
       <module name="Tasklist.Topics-Member_functions-Theory.main" target="15" />
       <module name="Tasklist.Topics-Member_functions-Volume_of_a_cube.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Add_them_all.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Adding.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Banana.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Methods_of_Mutable_List.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-MutableList_properties.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Remove_us.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Theory.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Transformation.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-Updating_an_element.main" target="15" />
+      <module name="Tasklist.Topics-Mutable_List-You_don't_need_them.main" target="15" />
       <module name="Tasklist.Topics-Overriding_functions-Fix_bugs.main" target="15" />
       <module name="Tasklist.Topics-Overriding_functions-Override_the_candidate.main" target="15" />
       <module name="Tasklist.Topics-Overriding_functions-Theory.main" target="15" />
@@ -141,6 +167,7 @@
       <module name="Tasklist.Topics-String_arrays-Help_the_Lord_Commander.main" target="15" />
       <module name="Tasklist.Topics-String_arrays-Initialization.main" target="15" />
       <module name="Tasklist.Topics-String_arrays-Theory.main" target="15" />
+      <module name="Tasklist.Topics-String_arrays-Yet_another_array.main" target="15" />
       <module name="Tasklist.Topics-The_try-catch-finally_statement-Choose_the_correct_option.main" target="15" />
       <module name="Tasklist.Topics-The_try-catch-finally_statement-Complex_handling.main" target="15" />
       <module name="Tasklist.Topics-The_try-catch-finally_statement-Finalizing.main" target="15" />

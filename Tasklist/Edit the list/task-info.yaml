@@ -575,6 +575,12 @@ files:
     
     
     learner_created: false
+  - name: src/tasklist/FuncCompanion.kt
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/18597#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 12 Mar 2024 06:14:47 UTC"
 record: -1

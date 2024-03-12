@@ -21,3 +21,6 @@ content:
   - toString()
   - Data class
   - Kotlinx datetime library
+  - For loop and lists
+  - Mutable List
+  - Jumps and returns

@@ -1,0 +1,20 @@
+type: code
+files:
+  - name: src/Main.kt
+    visible: true
+    text: "import java.util.*\n\nfun transformList(numbersString: String): String {\n\
+    \    // Converting the String of comma-separated integers to a MutableList of\
+    \ Integers.\n    val numbers = numbersString.split(\",\").map { it.toInt() }.toMutableList()\n\
+    \n    // Put your code here to loop over the list and transform the numbers according\
+    \ to the given constraints. \n\n    // After transforming the list, convert it\
+    \ back to a String and return.\n    return numbers.joinToString(\",\")\n}\n\n\
+    fun main(args: Array<String>) {\n    val scanner = Scanner(System.`in`)\n\n  \
+    \  // The input will be read as a String, and you will need to parse it to a MutableList\
+    \ of Integers.\n    val numbersString = scanner.nextLine()\n\n    val transformedListString\
+    \ = transformList(numbersString)\n\n    // Print the transformed list as a string.\n\
+    \    println(transformedListString)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41073#comment
+status: Solved
+record: -1
+submission_language: kotlin
