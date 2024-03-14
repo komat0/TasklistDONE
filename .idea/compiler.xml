@@ -35,6 +35,14 @@
       <module name="Tasklist.Topics-Declaring_classes-Possible_properties_types.main" target="15" />
       <module name="Tasklist.Topics-Declaring_classes-Theory.main" target="15" />
       <module name="Tasklist.Topics-Declaring_classes-True_statements.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-Find_destructuring_declarations.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-Fix_a_bug.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-Pretty_output.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-The_meaning_of_operator.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-Theory.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-Underscore.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-Underscore__1_.main" target="15" />
+      <module name="Tasklist.Topics-Destructuring_declarations-What_do_you_know_about_destructuring_declarations.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Counting.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Down_to.main" target="15" />
       <module name="Tasklist.Topics-For_loop_and_arrays-Find_the_max.main" target="15" />

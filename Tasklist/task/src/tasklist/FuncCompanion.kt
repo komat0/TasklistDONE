@@ -8,18 +8,48 @@ class FuncCompanion {
     companion object {
 
         fun print(taskList: MutableList<List<String>>) {
-            var spaceFirstCounter = "  "
-            val spaceSecondCounter = "  "
+            var indexSpacer = "  "
+            val stringWidth = 44
+            val emptyLine = "|    |            |       |   |   "
+
             if (isListEmpty(taskList)) {
                 println("No tasks have been input")
             } else {
+                // Print header
+                printSeparator()
+                printHeader()
+                printSeparator()
+                // Print all lines from the taskListInner
                 for ((index, taskListInner) in taskList.withIndex()) {
+                    // Add +1 for printing 0 index like 1
                     val indexNumber = index + 1
-                    if (index > 8) spaceFirstCounter = " "
-                    println("$indexNumber$spaceFirstCounter${taskListInner.first()}")
-                    for (i in 1..taskListInner.lastIndex)
-                        println("$spaceSecondCounter ${taskListInner[i]}")
-                    println()
+                    // Change spaces depend on number size
+                    if (index > 8) indexSpacer = " " else indexSpacer = "  "
+                    // Print index Part
+                    print("| $indexNumber$indexSpacer|")
+
+                    // Parse and print first line from the taskListInner (Date information)
+                    val parts = taskListInner.first().split(" ")
+                    val taskDate = parts[0]
+                    val taskTime = parts[1]
+                    val taskPriority = colorCheck(parts[2])
+                    val taskDue = colorCheck(parts[3])
+                    // Print Data and priority bloc
+                    print(" $taskDate | $taskTime | $taskPriority | $taskDue |")
+
+                    for (j in 1 until taskListInner.size) {
+                        val taskText = taskListInner[j].chunked(stringWidth)
+                        if (j == 1) {
+                            println("${taskText.first().padEnd(stringWidth, ' ')}|")
+                            if (taskText.size > 1)
+                                for (k in 1 until taskText.size)
+                                    println("$emptyLine|${taskText[k].padEnd(stringWidth, ' ')}|")
+                        } else {
+                            for (k in 0 until taskText.size)
+                                println("$emptyLine|${taskText[k].padEnd(stringWidth, ' ')}|")
+                        }
+                    }
+                    printSeparator()
                 }
             }
         }
@@ -236,6 +266,23 @@ class FuncCompanion {
                 taskTime = ""
             }
             return taskTime
+        }
+
+        fun printHeader() {
+            println("| N  |    Date    | Time  | P | D |                   Task                     |")
+        }
+
+        fun printSeparator() {
+            println("+----+------------+-------+---+---+--------------------------------------------+")
+        }
+
+        fun colorCheck(c: String): String {
+            return when (c) {
+                "C", "O" -> "\u001B[101m \u001B[0m"
+                "H", "T" -> "\u001B[103m \u001B[0m"
+                "N", "I" -> "\u001B[102m \u001B[0m"
+                else -> "\u001B[104m \u001B[0m"
+            }
         }
     }
 }

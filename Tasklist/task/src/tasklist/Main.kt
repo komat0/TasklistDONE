@@ -1,12 +1,23 @@
 package tasklist
 
-import kotlinx.datetime.LocalDate
-import java.time.format.DateTimeParseException
-import java.util.regex.Pattern
-
 
 fun main() {
+
     val taskList = mutableListOf<List<String>>()
+
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "\"Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet.\"", "Test task Second Line", "Tretya stroka"))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "\"Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet.\"", "Tretya stroka dlya"))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet "))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//    taskList.add(mutableListOf("2024-03-13 12:00 H T", "Test Task First Line", "Test task Second Line", "Tretya stroka dlya testa budet dlinnoy chto by zaodno posmotret na perenosi stroki. I voobshe kaka rabotaet."))
+//
+//    FuncCompanion.print(taskList)
 
     while (true) {
         println("Input an action (add, print, edit, delete, end):")
